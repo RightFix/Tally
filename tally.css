@@ -1,0 +1,84 @@
+/** Phone-view**/
+@media(max-width:750px){
+  body{
+    width: 500px;
+    height:700px;
+    border:2px solid black;
+    border-radius: 250px;
+    margin: 200px 15px 250px 25px;
+    padding: 0px 0px 0px 0px;
+    background: #1a1d131b;
+  }
+  input{
+    width:485px ;
+    height:350px;
+    margin: 0px 0px 0px 0px;
+   text-align: right;
+    border-radius: 230px 230px 0px 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-size: 80px;
+    word-wrap: break-word;
+  }
+  table{
+    width:495px ;
+    height:350px;
+    margin: 0px 0px 0px 0px;
+   text-align: center;
+   border-radius: 0px 0px 230px 230px;
+  }
+  #con{
+    padding: 0px:0px 0px 0px ;
+    border-radius: 0px 0px 0px 230px;
+  }
+  #con:active{
+    background-color: #4831e65c;
+  }
+  #clear:active{
+    background-color: #306e325c;
+  }
+  #clear{
+    padding: 0px:0px 0px 0px ;
+    border-radius: 0px 0px 230px 0px;
+  }
+  
+}
+/** Desktop -view **/
+@media(min-width:750px){
+body{
+    width: 500px;
+    height:700px;
+    border:2px solid black;
+    border-radius: 250px;
+    margin: 200px 15px 250px 25px;
+    padding: 0px 0px 0px 0px;
+    background: #1a1d131b;
+  }
+  input{
+    width:485px ;
+    height:350px;
+    margin: 0px 0px 0px 0px;
+   text-align: center;
+   border-radius: 230px 230px 0px 0px;
+    padding-top:100px ;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-size: 80px;
+    word-wrap: break-word;
+  }
+  table{
+    width:495px ;
+    height:350px;
+    margin: 0px 0px 0px 0px;
+   text-align: center;
+   border-radius: 0px 0px 230px 230px;
+  }
+  #con{
+    padding: 0px:0px 0px 0px ;
+    border-radius: 0px 0px 0px 230px;
+  }
+  #clear{
+    padding: 0px:0px 0px 0px ;
+    border-radius: 0px 0px 230px 0px;
+  }
+}
