@@ -27,7 +27,7 @@
    text-align: center;
    border-radius: 0px 0px 230px 230px;
   }
-  #con{
+  #clear{
     padding: 0px:0px 0px 0px ;
     border-radius: 0px 0px 0px 230px;
   }
@@ -37,7 +37,7 @@
   #clear:active{
     background-color: #306e325c;
   }
-  #clear{
+  #con{
     padding: 0px:0px 0px 0px ;
     border-radius: 0px 0px 230px 0px;
   }
@@ -73,12 +73,19 @@ body{
    text-align: center;
    border-radius: 0px 0px 230px 230px;
   }
-  #con{
+  #clear{
     padding: 0px:0px 0px 0px ;
     border-radius: 0px 0px 0px 230px;
   }
-  #clear{
+  #con{
     padding: 0px:0px 0px 0px ;
     border-radius: 0px 0px 230px 0px;
   }
+   #con:active{
+    background-color: #4831e65c;
+  }
+  #clear:active{
+    background-color: #306e325c;
+  }
+ 
 }
